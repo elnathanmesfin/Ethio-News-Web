@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>Ethio News</title>
+    <link rel="stylesheet" href="style.css">    
+    </head>
+    <body>
+        <div class="hero">
+            <nav>
+                <img src="ethio.png" class="logo" height="150px">
+                <div class="navu">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                        <li><a href="news.html">NEWS</a></li>
+                        <li><a href="sport.html">SPORT</a></li>
+                        <li><a href="enter.html">ENTERTAINMENT</a></li>
+                        <li><a href="contactus.html">CONTACT US</a></li>
+                        <li><a href="privacy.html">PRIVACY POLICY</a></li>
+                </ul>
+                </div>
+                <img src="moon.png" id="icon">
+            </nav>
+            <div class="info">
+                <h1><u>Privacy <span>Policy</span> of Ethio News </u></h1>
+                <p><i>Last Updated October 27, 2021</i></p>
+                <h2>1) Your Safety</h2>
+            </div>
+            <div class="pp">
+                <p>We take our responsibility to protect your infromation very seroiusly. We use technical and procedural<br> safeguards that comply with applicable legal standards to secure your information from unauthorized<br> access and use, alternation and destruction. There is no worry about your safety. That means we don't<br> take any kind of your personal data and also we don't share any kind of your Personal data like E-mail,<br> Phone Number, Your Name and Your Feedback to us. And also there will be no unwanted ads or popup <br>so you can enjoy your daily news, Sports, Entertainments and others. We may have ads sometimes but<br> that is comfortable which means it's not embrassing it's just in a custom place that can't disturb you.<br> And Finally the Good News is there won't be a popup!</p>
+            </div>
+            <div class="info">
+                <h2>2) Our Policy</h2>
+            </div>
+            <div class="pp">
+                <p>We have our own policy to make you know about us and our rules. As we care for you, you also should care and respect our policy. Our policy is the following below:</p>
+                <ul>
+                    <li><b>Decoding or Cloning this website without our permission is not allowed. It will cause you copyright claim.</b></li>
+                    <li><b>We don't want any kind of spamming or promotion when you contact us. Just you can go through your business.</b></li>
+                    <li><b>You have to rescpect to all this rules in order to continue with us with pleasure.</b></li>
+                </ul>
+            </div>
+            <br>
+            <h3 style="text-align:center"> ©️ ETHIO NEWS 2021 || All rights reserved</h3>
+            <script>
+                var icon = document.getElementById("icon");
+                icon.onclick = function(){
+                    document.body.classList.toggle("dark-theme");
+                    if(document.body.classList.contains("dark-theme")){
+                        icon.src = "sun.png";
+                    }else{
+                        icon.src = "moon.png";
+                    }
+                }
+            </script>
+    </body>
+</html>
